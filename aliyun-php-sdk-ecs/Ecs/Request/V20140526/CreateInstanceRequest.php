@@ -321,7 +321,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setSystemDiskSize($systemDiskSize) {
 		$this->systemDiskSize = $systemDiskSize;
-		$this->queryParameters["SystemDiskSize"]=$systemDiskSize;
+		$this->queryParameters["SystemDisk.Size"]=$systemDiskSize;
 	}
 
 	public function getSystemDiskCategory() {
@@ -330,7 +330,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setSystemDiskCategory($systemDiskCategory) {
 		$this->systemDiskCategory = $systemDiskCategory;
-		$this->queryParameters["SystemDiskCategory"]=$systemDiskCategory;
+		$this->queryParameters["SystemDisk.Category"]=$systemDiskCategory;
 	}
 
 	public function getSystemDiskDiskName() {
@@ -339,7 +339,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setSystemDiskDiskName($systemDiskDiskName) {
 		$this->systemDiskDiskName = $systemDiskDiskName;
-		$this->queryParameters["SystemDiskDiskName"]=$systemDiskDiskName;
+		$this->queryParameters["SystemDisk.DiskName"]=$systemDiskDiskName;
 	}
 
 	public function getSystemDiskDescription() {
@@ -348,7 +348,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setSystemDiskDescription($systemDiskDescription) {
 		$this->systemDiskDescription = $systemDiskDescription;
-		$this->queryParameters["SystemDiskDescription"]=$systemDiskDescription;
+		$this->queryParameters["SystemDisk.Description"]=$systemDiskDescription;
 	}
 
 	public function getDataDisk1Size() {
@@ -357,7 +357,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1Size($dataDisk1Size) {
 		$this->dataDisk1Size = $dataDisk1Size;
-		$this->queryParameters["DataDisk1Size"]=$dataDisk1Size;
+		$this->queryParameters["DataDisk.1.Size"]=$dataDisk1Size;
 	}
 
 	public function getDataDisk1Category() {
@@ -366,7 +366,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1Category($dataDisk1Category) {
 		$this->dataDisk1Category = $dataDisk1Category;
-		$this->queryParameters["DataDisk1Category"]=$dataDisk1Category;
+		$this->queryParameters["DataDisk.1.Category"]=$dataDisk1Category;
 	}
 
 	public function getDataDisk1SnapshotId() {
@@ -375,7 +375,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1SnapshotId($dataDisk1SnapshotId) {
 		$this->dataDisk1SnapshotId = $dataDisk1SnapshotId;
-		$this->queryParameters["DataDisk1SnapshotId"]=$dataDisk1SnapshotId;
+		$this->queryParameters["DataDisk.1.SnapshotId"]=$dataDisk1SnapshotId;
 	}
 
 	public function getDataDisk1DiskName() {
@@ -384,7 +384,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1DiskName($dataDisk1DiskName) {
 		$this->dataDisk1DiskName = $dataDisk1DiskName;
-		$this->queryParameters["DataDisk1DiskName"]=$dataDisk1DiskName;
+		$this->queryParameters["DataDisk.1.DiskName"]=$dataDisk1DiskName;
 	}
 
 	public function getDataDisk1Description() {
@@ -393,7 +393,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1Description($dataDisk1Description) {
 		$this->dataDisk1Description = $dataDisk1Description;
-		$this->queryParameters["DataDisk1Description"]=$dataDisk1Description;
+		$this->queryParameters["DataDisk.1.Description"]=$dataDisk1Description;
 	}
 
 	public function getDataDisk1Device() {
@@ -402,7 +402,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1Device($dataDisk1Device) {
 		$this->dataDisk1Device = $dataDisk1Device;
-		$this->queryParameters["DataDisk1Device"]=$dataDisk1Device;
+		$this->queryParameters["DataDisk.1.Device"]=$dataDisk1Device;
 	}
 
 	public function getDataDisk1DeleteWithInstance() {
@@ -411,7 +411,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk1DeleteWithInstance($dataDisk1DeleteWithInstance) {
 		$this->dataDisk1DeleteWithInstance = $dataDisk1DeleteWithInstance;
-		$this->queryParameters["DataDisk1DeleteWithInstance"]=$dataDisk1DeleteWithInstance;
+		$this->queryParameters["DataDisk.1.DeleteWithInstance"]=$dataDisk1DeleteWithInstance;
 	}
 
 	public function getDataDisk2Size() {
@@ -420,7 +420,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2Size($dataDisk2Size) {
 		$this->dataDisk2Size = $dataDisk2Size;
-		$this->queryParameters["DataDisk2Size"]=$dataDisk2Size;
+		$this->queryParameters["DataDisk.2.Size"]=$dataDisk2Size;
 	}
 
 	public function getDataDisk2Category() {
@@ -429,7 +429,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2Category($dataDisk2Category) {
 		$this->dataDisk2Category = $dataDisk2Category;
-		$this->queryParameters["DataDisk2Category"]=$dataDisk2Category;
+		$this->queryParameters["DataDisk.2.Category"]=$dataDisk2Category;
 	}
 
 	public function getDataDisk2SnapshotId() {
@@ -438,7 +438,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2SnapshotId($dataDisk2SnapshotId) {
 		$this->dataDisk2SnapshotId = $dataDisk2SnapshotId;
-		$this->queryParameters["DataDisk2SnapshotId"]=$dataDisk2SnapshotId;
+		$this->queryParameters["DataDisk.2.SnapshotId"]=$dataDisk2SnapshotId;
 	}
 
 	public function getDataDisk2DiskName() {
@@ -447,7 +447,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2DiskName($dataDisk2DiskName) {
 		$this->dataDisk2DiskName = $dataDisk2DiskName;
-		$this->queryParameters["DataDisk2DiskName"]=$dataDisk2DiskName;
+		$this->queryParameters["DataDisk.2.DiskName"]=$dataDisk2DiskName;
 	}
 
 	public function getDataDisk2Description() {
@@ -456,7 +456,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2Description($dataDisk2Description) {
 		$this->dataDisk2Description = $dataDisk2Description;
-		$this->queryParameters["DataDisk2Description"]=$dataDisk2Description;
+		$this->queryParameters["DataDisk.2.Description"]=$dataDisk2Description;
 	}
 
 	public function getDataDisk2Device() {
@@ -465,7 +465,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2Device($dataDisk2Device) {
 		$this->dataDisk2Device = $dataDisk2Device;
-		$this->queryParameters["DataDisk2Device"]=$dataDisk2Device;
+		$this->queryParameters["DataDisk.2.Device"]=$dataDisk2Device;
 	}
 
 	public function getDataDisk2DeleteWithInstance() {
@@ -474,7 +474,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk2DeleteWithInstance($dataDisk2DeleteWithInstance) {
 		$this->dataDisk2DeleteWithInstance = $dataDisk2DeleteWithInstance;
-		$this->queryParameters["DataDisk2DeleteWithInstance"]=$dataDisk2DeleteWithInstance;
+		$this->queryParameters["DataDisk.2.DeleteWithInstance"]=$dataDisk2DeleteWithInstance;
 	}
 
 	public function getDataDisk3Size() {
@@ -483,7 +483,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3Size($dataDisk3Size) {
 		$this->dataDisk3Size = $dataDisk3Size;
-		$this->queryParameters["DataDisk3Size"]=$dataDisk3Size;
+		$this->queryParameters["DataDisk.3.Size"]=$dataDisk3Size;
 	}
 
 	public function getDataDisk3Category() {
@@ -492,7 +492,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3Category($dataDisk3Category) {
 		$this->dataDisk3Category = $dataDisk3Category;
-		$this->queryParameters["DataDisk3Category"]=$dataDisk3Category;
+		$this->queryParameters["DataDisk.3.Category"]=$dataDisk3Category;
 	}
 
 	public function getDataDisk3SnapshotId() {
@@ -501,7 +501,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3SnapshotId($dataDisk3SnapshotId) {
 		$this->dataDisk3SnapshotId = $dataDisk3SnapshotId;
-		$this->queryParameters["DataDisk3SnapshotId"]=$dataDisk3SnapshotId;
+		$this->queryParameters["DataDisk.3.SnapshotId"]=$dataDisk3SnapshotId;
 	}
 
 	public function getDataDisk3DiskName() {
@@ -510,7 +510,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3DiskName($dataDisk3DiskName) {
 		$this->dataDisk3DiskName = $dataDisk3DiskName;
-		$this->queryParameters["DataDisk3DiskName"]=$dataDisk3DiskName;
+		$this->queryParameters["DataDisk.3.DiskName"]=$dataDisk3DiskName;
 	}
 
 	public function getDataDisk3Description() {
@@ -519,7 +519,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3Description($dataDisk3Description) {
 		$this->dataDisk3Description = $dataDisk3Description;
-		$this->queryParameters["DataDisk3Description"]=$dataDisk3Description;
+		$this->queryParameters["DataDisk.3.Description"]=$dataDisk3Description;
 	}
 
 	public function getDataDisk3Device() {
@@ -528,7 +528,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3Device($dataDisk3Device) {
 		$this->dataDisk3Device = $dataDisk3Device;
-		$this->queryParameters["DataDisk3Device"]=$dataDisk3Device;
+		$this->queryParameters["DataDisk.3.Device"]=$dataDisk3Device;
 	}
 
 	public function getDataDisk3DeleteWithInstance() {
@@ -537,7 +537,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk3DeleteWithInstance($dataDisk3DeleteWithInstance) {
 		$this->dataDisk3DeleteWithInstance = $dataDisk3DeleteWithInstance;
-		$this->queryParameters["DataDisk3DeleteWithInstance"]=$dataDisk3DeleteWithInstance;
+		$this->queryParameters["DataDisk.3.DeleteWithInstance"]=$dataDisk3DeleteWithInstance;
 	}
 
 	public function getDataDisk4Size() {
@@ -546,7 +546,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4Size($dataDisk4Size) {
 		$this->dataDisk4Size = $dataDisk4Size;
-		$this->queryParameters["DataDisk4Size"]=$dataDisk4Size;
+		$this->queryParameters["DataDisk.4.Size"]=$dataDisk4Size;
 	}
 
 	public function getDataDisk4Category() {
@@ -555,7 +555,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4Category($dataDisk4Category) {
 		$this->dataDisk4Category = $dataDisk4Category;
-		$this->queryParameters["DataDisk4Category"]=$dataDisk4Category;
+		$this->queryParameters["DataDisk.4.Category"]=$dataDisk4Category;
 	}
 
 	public function getDataDisk4SnapshotId() {
@@ -564,7 +564,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4SnapshotId($dataDisk4SnapshotId) {
 		$this->dataDisk4SnapshotId = $dataDisk4SnapshotId;
-		$this->queryParameters["DataDisk4SnapshotId"]=$dataDisk4SnapshotId;
+		$this->queryParameters["DataDisk.4.SnapshotId"]=$dataDisk4SnapshotId;
 	}
 
 	public function getDataDisk4DiskName() {
@@ -573,7 +573,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4DiskName($dataDisk4DiskName) {
 		$this->dataDisk4DiskName = $dataDisk4DiskName;
-		$this->queryParameters["DataDisk4DiskName"]=$dataDisk4DiskName;
+		$this->queryParameters["DataDisk.4.DiskName"]=$dataDisk4DiskName;
 	}
 
 	public function getDataDisk4Description() {
@@ -582,7 +582,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4Description($dataDisk4Description) {
 		$this->dataDisk4Description = $dataDisk4Description;
-		$this->queryParameters["DataDisk4Description"]=$dataDisk4Description;
+		$this->queryParameters["DataDisk.4.Description"]=$dataDisk4Description;
 	}
 
 	public function getDataDisk4Device() {
@@ -591,7 +591,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4Device($dataDisk4Device) {
 		$this->dataDisk4Device = $dataDisk4Device;
-		$this->queryParameters["DataDisk4Device"]=$dataDisk4Device;
+		$this->queryParameters["DataDisk.4.Device"]=$dataDisk4Device;
 	}
 
 	public function getDataDisk4DeleteWithInstance() {
@@ -600,7 +600,7 @@ class CreateInstanceRequest extends \RpcAcsRequest
 
 	public function setDataDisk4DeleteWithInstance($dataDisk4DeleteWithInstance) {
 		$this->dataDisk4DeleteWithInstance = $dataDisk4DeleteWithInstance;
-		$this->queryParameters["DataDisk4DeleteWithInstance"]=$dataDisk4DeleteWithInstance;
+		$this->queryParameters["DataDisk.4.DeleteWithInstance"]=$dataDisk4DeleteWithInstance;
 	}
 
 	public function getNodeControllerId() {
