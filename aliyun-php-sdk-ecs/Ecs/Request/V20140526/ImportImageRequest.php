@@ -132,7 +132,7 @@ class ImportImageRequest extends \RpcAcsRequest
 
 	public function setDiskDeviceMapping1Format($diskDeviceMapping1Format) {
 		$this->diskDeviceMapping1Format = $diskDeviceMapping1Format;
-		$this->queryParameters["DiskDeviceMapping1Format"]=$diskDeviceMapping1Format;
+		$this->queryParameters["DiskDeviceMapping.1.Format"]=$diskDeviceMapping1Format;
 	}
 
 	public function getDiskDeviceMapping1OSSBucket() {
@@ -141,7 +141,7 @@ class ImportImageRequest extends \RpcAcsRequest
 
 	public function setDiskDeviceMapping1OSSBucket($diskDeviceMapping1OSSBucket) {
 		$this->diskDeviceMapping1OSSBucket = $diskDeviceMapping1OSSBucket;
-		$this->queryParameters["DiskDeviceMapping1OSSBucket"]=$diskDeviceMapping1OSSBucket;
+		$this->queryParameters["DiskDeviceMapping.1.OSSBucket"]=$diskDeviceMapping1OSSBucket;
 	}
 
 	public function getDiskDeviceMapping1OSSObject() {
@@ -150,7 +150,7 @@ class ImportImageRequest extends \RpcAcsRequest
 
 	public function setDiskDeviceMapping1OSSObject($diskDeviceMapping1OSSObject) {
 		$this->diskDeviceMapping1OSSObject = $diskDeviceMapping1OSSObject;
-		$this->queryParameters["DiskDeviceMapping1OSSObject"]=$diskDeviceMapping1OSSObject;
+		$this->queryParameters["DiskDeviceMapping.1.OSSObject"]=$diskDeviceMapping1OSSObject;
 	}
 
 	public function getDiskDeviceMapping1DiskImSize() {
@@ -159,7 +159,7 @@ class ImportImageRequest extends \RpcAcsRequest
 
 	public function setDiskDeviceMapping1DiskImSize($diskDeviceMapping1DiskImSize) {
 		$this->diskDeviceMapping1DiskImSize = $diskDeviceMapping1DiskImSize;
-		$this->queryParameters["DiskDeviceMapping1DiskImSize"]=$diskDeviceMapping1DiskImSize;
+		$this->queryParameters["DiskDeviceMapping.1.DiskImageSize"]=$diskDeviceMapping1DiskImSize;
 	}
 
 	public function getDiskDeviceMapping1Device() {
@@ -168,7 +168,7 @@ class ImportImageRequest extends \RpcAcsRequest
 
 	public function setDiskDeviceMapping1Device($diskDeviceMapping1Device) {
 		$this->diskDeviceMapping1Device = $diskDeviceMapping1Device;
-		$this->queryParameters["DiskDeviceMapping1Device"]=$diskDeviceMapping1Device;
+		$this->queryParameters["DiskDeviceMapping.1.Device"]=$diskDeviceMapping1Device;
 	}
 
 	public function getRoleName() {
